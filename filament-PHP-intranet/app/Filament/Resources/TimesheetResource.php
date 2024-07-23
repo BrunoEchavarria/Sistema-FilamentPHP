@@ -20,7 +20,7 @@ class TimesheetResource extends Resource
     protected static ?string $model = Timesheet::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-table-cells';
-
+    protected static ?string $navigationGroup = 'Employee Management';
     public static function form(Form $form): Form
     {
         return $form
